@@ -44,4 +44,70 @@
 .container{
   display: flex;
   flex-direction: column;
+  height: 100%;
+}
+
+.pathway-box{
+  /* border: solid; */
+  border: 2px solid black;
+  margin: 5px;
+  padding: 2px;
+}
+
+.big-bubble-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.bubble-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.bubble-circle{
+  padding: 5px;
+  margin: 4px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.bubble-circle:hover{
+  cursor: pointer;
+  color:whitesmoke;
+  background-color:black;
+}
+
+.selected{
+  color:whitesmoke;
+  background-color:black;
+}
+
+.button{
+  padding: 3px;
+  margin: 5px;
+}
+
+.input-style{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.bubble-title{
+  font-size: larger;
+  margin: 10px;
+}
+
+.about-section{
+  margin: 30px;
 }
